@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vijay Laxmi Singh — Computer Science student, developer and Co-Founder & Executive Director at ArKTest." />
+  <meta name="theme-color" content="#1C1410" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Vijay Laxmi Singh | Student Developer & Co-Founder" />
+  <meta property="og:description" content="Portfolio of Vijay Laxmi Singh — Computer Science student, developer and Co-Founder & Executive Director at ArKTest." />
+  <meta property="og:image" content="profile.jpg" />
+
+  <title>Vijay Laxmi Singh | Student Developer & Co-Founder</title>
+
+  <!-- SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%231C1410'/><text y='.9em' font-size='72' font-family='serif' fill='%23C99A52' x='50%' text-anchor='middle' dominant-baseline='middle' dy='.1em'>V</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================= NAVBAR ========================= -->
+  <header class="navbar" id="navbar" role="banner">
+    <nav class="nav-container" aria-label="Primary navigation">
+      <a href="#home" class="nav-brand" aria-label="Go to top">
+        <span class="brand-name">Vijay Laxmi Singh</span>
+        <span class="brand-subtitle">Student Developer</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#home"         class="nav-link" aria-current="page">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#experience"   class="nav-link">Experience</a></li>
+        <li><a href="#arktest"      class="nav-link">ArKTest</a></li>
+        <li><a href="#education"    class="nav-link">Education</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========================= HERO ========================= -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-container">
+
+        <div class="hero-content">
+          <p class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Student Developer &bull; Co-Founder
+          </p>
+
+          <h1 class="hero-heading" id="hero-heading">
+            Building with code.<br />
+            <span class="hero-heading-accent">Growing with purpose.</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Computer Science student, developer and Co-Founder of ArKTest, passionate about
+            learning modern technologies and building useful digital experiences.
+          </p>
+
+          <p class="hero-location">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            Uttar Pradesh, India
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">View My Work</a>
+            <a href="https://github.com/Laxmi-Rajput" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              GitHub Profile
+            </a>
+          </div>
+
+          <a href="#arktest" class="hero-cta-link">
+            Explore ArKTest <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="hero-image-side">
+          <div class="profile-frame-wrapper">
+            <div class="profile-frame">
+              <img
+                src="profile.jpg"
+                alt="Vijay Laxmi Singh"
+                class="profile-image"
+                loading="eager"
+              />
+            </div>
+            <div class="profile-badge" aria-label="Role badge">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              Co-Founder &bull; ArKTest
+            </div>
+            <div class="profile-decoration" aria-hidden="true"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ========================= ABOUT ========================= -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title" id="about-heading">About Me</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal-up">
+            <p class="about-para">
+              Hi, I'm Vijay Laxmi Singh — a Computer Science diploma student and developer
+              from Uttar Pradesh, India. I enjoy learning technologies, building practical
+              solutions and continuously improving my development skills.
+            </p>
+            <p class="about-para">
+              My technical journey includes web development, Python, Django and C, while my
+              current internship is giving me practical exposure to the .NET ecosystem.
+            </p>
+            <p class="about-para">
+              Alongside technology, I am also building my entrepreneurial experience as
+              Co-Founder &amp; Executive Director at ArKTest, where I contribute to the
+              growth and operations of the platform.
+            </p>
+          </div>
+
+          <div class="quick-profile reveal-up" aria-label="Quick profile card">
+            <h3 class="qp-title">Quick Profile</h3>
+            <ul class="qp-list" role="list">
+              <li class="qp-item">
+                <span class="qp-label"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Role</span>
+                <span class="qp-value">Student Developer</span>
+              </li>
+              <li class="qp-item">
+                <span class="qp-label"><i class="fa-solid fa-code" aria-hidden="true"></i> Current</span>
+                <span class="qp-value">.NET Intern</span>
+              </li>
+              <li class="qp-item">
+                <span class="qp-label"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</span>
+                <span class="qp-value">Diploma in Computer Science</span>
+              </li>
+              <li class="qp-item">
+                <span class="qp-label"><i class="fa-solid fa-building" aria-hidden="true"></i> Organization</span>
+                <span class="qp-value">ArKTest</span>
+              </li>
+              <li class="qp-item">
+                <span class="qp-label"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Location</span>
+                <span class="qp-value">Uttar Pradesh, India</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= SKILLS ========================= -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">What I Know</span>
+          <h2 class="section-title" id="skills-heading">Technical Skills</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-category reveal-up">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-palette" aria-hidden="true"></i>
+              <h3 class="skill-cat-title">Frontend</h3>
+            </div>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-icon skill-html"><i class="fa-brands fa-html5" aria-hidden="true"></i></span>
+                <span class="skill-name">HTML</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-icon skill-css"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i></span>
+                <span class="skill-name">CSS</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-icon skill-bootstrap"><i class="fa-brands fa-bootstrap" aria-hidden="true"></i></span>
+                <span class="skill-name">Bootstrap</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category reveal-up">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-terminal" aria-hidden="true"></i>
+              <h3 class="skill-cat-title">Programming</h3>
+            </div>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-icon skill-python"><i class="fa-brands fa-python" aria-hidden="true"></i></span>
+                <span class="skill-name">Python</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-icon skill-c"><i class="fa-solid fa-c" aria-hidden="true"></i></span>
+                <span class="skill-name">C</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-category reveal-up">
+            <div class="skill-cat-header">
+              <i class="fa-solid fa-server" aria-hidden="true"></i>
+              <h3 class="skill-cat-title">Backend</h3>
+            </div>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-icon skill-django"><i class="fa-brands fa-python" aria-hidden="true"></i></span>
+                <span class="skill-name">Django</span>
+              </li>
+              <li class="skill-item skill-learning">
+                <span class="skill-icon skill-dotnet"><i class="fa-brands fa-microsoft" aria-hidden="true"></i></span>
+                <span class="skill-name">
+                  .NET
+                  <span class="skill-badge">Internship</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= EXPERIENCE ========================= -->
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Where I've Worked</span>
+          <h2 class="section-title" id="experience-heading">Experience</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="timeline reveal-up" aria-label="Experience timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <article class="timeline-card">
+              <header class="timeline-card-header">
+                <div class="timeline-card-title-row">
+                  <h3 class="timeline-role">.NET Intern</h3>
+                  <span class="timeline-status">CURRENT</span>
+                </div>
+                <p class="timeline-company">
+                  <i class="fa-solid fa-building" aria-hidden="true"></i>
+                  Techpile Technology, Lucknow
+                </p>
+              </header>
+              <p class="timeline-desc">
+                Currently gaining practical industry exposure through a six-month .NET
+                internship at Techpile Technology, Lucknow.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= ARKTEST ========================= -->
+    <section class="section section-alt" id="arktest" aria-labelledby="arktest-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">My Venture</span>
+          <h2 class="section-title" id="arktest-heading">Co-Founder &amp; Executive Director</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="arktest-card reveal-up" aria-label="ArKTest featured card">
+          <div class="arktest-card-inner">
+
+            <div class="arktest-left">
+              <div class="arktest-logo-area" aria-hidden="true">
+                <div class="arktest-logo-icon">
+                  <i class="fa-solid fa-flask-vial"></i>
+                </div>
+                <div class="arktest-logo-glow" aria-hidden="true"></div>
+              </div>
+
+              <div class="arktest-meta">
+                <span class="arktest-tag">Beta Testing Ecosystem</span>
+                <h3 class="arktest-name">ArKTest</h3>
+                <p class="arktest-full-name">Application Review Kit</p>
+              </div>
+
+              <p class="arktest-description">
+                ArKTest is a beta testing ecosystem designed to connect indie developers
+                with verified QA testers and create a structured environment for
+                application testing.
+              </p>
+
+              <button class="btn btn-gold" aria-label="ArKTest platform" disabled>
+                <i class="fa-solid fa-flask-vial" aria-hidden="true"></i>
+                ArKTest
+              </button>
+            </div>
+
+            <div class="arktest-right">
+              <div class="arktest-role-card">
+                <span class="arktest-role-label">My Role</span>
+                <h4 class="arktest-role-title">Co-Founder &amp; Executive Director</h4>
+                <p class="arktest-role-desc">
+                  Driving strategic growth, ecosystem operations, quality assurance
+                  standards and community partnerships.
+                </p>
+              </div>
+
+              <div class="arktest-pillars">
+                <div class="arktest-pillar">
+                  <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                  <span>Strategic Growth</span>
+                </div>
+                <div class="arktest-pillar">
+                  <i class="fa-solid fa-network-wired" aria-hidden="true"></i>
+                  <span>Ecosystem Ops</span>
+                </div>
+                <div class="arktest-pillar">
+                  <i class="fa-solid fa-shield-check" aria-hidden="true"></i>
+                  <span>QA Standards</span>
+                </div>
+                <div class="arktest-pillar">
+                  <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+                  <span>Partnerships</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= EDUCATION ========================= -->
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title" id="education-heading">Education</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="timeline reveal-up" aria-label="Education timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <article class="timeline-card">
+              <header class="timeline-card-header">
+                <div class="timeline-card-title-row">
+                  <h3 class="timeline-role">Diploma in Computer Science</h3>
+                  <span class="timeline-year">2023 — 2026</span>
+                </div>
+                <p class="timeline-company">
+                  <i class="fa-solid fa-school" aria-hidden="true"></i>
+                  Government Girls Polytechnic, Gorakhpur
+                </p>
+              </header>
+            </article>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true">
+              <div class="timeline-dot"></div>
+            </div>
+            <article class="timeline-card">
+              <header class="timeline-card-header">
+                <div class="timeline-card-title-row">
+                  <h3 class="timeline-role">Class 10 — CBSE</h3>
+                  <div class="timeline-score-badge" aria-label="Score 95.4 percent">
+                    <span class="timeline-score">95.4%</span>
+                  </div>
+                </div>
+                <p class="timeline-company">
+                  <i class="fa-solid fa-school" aria-hidden="true"></i>
+                  RV Children Valley School
+                </p>
+              </header>
+              <p class="timeline-desc timeline-highlight">
+                <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+                First in School
+              </p>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= ACHIEVEMENTS ========================= -->
+    <section class="section section-alt" id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Milestones</span>
+          <h2 class="section-title" id="achievements-heading">Achievements</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="achievements-grid">
+
+          <article class="achievement-card reveal-up" aria-label="Academic achievement card">
+            <div class="achievement-icon" aria-hidden="true">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="achievement-score">95.4%</div>
+            <h3 class="achievement-title">CBSE Class 10</h3>
+            <p class="achievement-sub">First in School</p>
+            <p class="achievement-org">RV Children Valley School</p>
+          </article>
+
+          <article class="achievement-card reveal-up" aria-label="Entrepreneurial achievement card">
+            <div class="achievement-icon" aria-hidden="true">
+              <i class="fa-solid fa-flask-vial"></i>
+            </div>
+            <div class="achievement-score-text">Co-Founder</div>
+            <h3 class="achievement-title">ArKTest</h3>
+            <p class="achievement-sub">Executive Director</p>
+            <p class="achievement-org">Application Review Kit</p>
+          </article>
+
+          <article class="achievement-card reveal-up" aria-label="Industry internship achievement card">
+            <div class="achievement-icon" aria-hidden="true">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="achievement-score-text">Intern</div>
+            <h3 class="achievement-title">Industry Internship</h3>
+            <p class="achievement-sub">.NET Intern</p>
+            <p class="achievement-org">Techpile Technology, Lucknow</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= PROJECTS ========================= -->
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">My Work</span>
+          <h2 class="section-title" id="projects-heading">Projects &amp; Experiments</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-coming reveal-up" aria-label="Projects coming soon">
+          <div class="coming-icon" aria-hidden="true">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="coming-title">More projects are currently in development.</h3>
+          <p class="coming-desc">
+            I'm continuously learning and building as I expand my experience across
+            web development, Python, Django and .NET.
+          </p>
+          <div class="coming-badge">Coming Soon</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= GITHUB ========================= -->
+    <section class="section section-alt" id="github" aria-labelledby="github-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Open Source</span>
+          <h2 class="section-title" id="github-heading">Open Source &amp; GitHub</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="github-card reveal-up">
+          <div class="github-card-inner">
+            <div class="github-icon-area" aria-hidden="true">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="github-info">
+              <h3 class="github-username">Laxmi-Rajput</h3>
+              <p class="github-desc">
+                Follow my coding journey, experiments and contributions on GitHub.
+              </p>
+            </div>
+            <a
+              href="https://github.com/Laxmi-Rajput"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              aria-label="Visit Vijay Laxmi Singh's GitHub profile"
+            >
+              Visit GitHub <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= CONTACT ========================= -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="contact-layout">
+
+          <div class="contact-intro reveal-up">
+            <p class="contact-text">
+              Interested in collaborating, discussing technology, or connecting professionally?
+            </p>
+          </div>
+
+          <div class="contact-cards reveal-up">
+
+            <div class="contact-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-value">Uttar Pradesh, India</span>
+              </div>
+            </div>
+
+            <a
+              href="https://github.com/Laxmi-Rajput"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card contact-card-link"
+              aria-label="Visit GitHub profile Laxmi-Rajput"
+            >
+              <div class="contact-card-icon" aria-hidden="true">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">GitHub</span>
+                <span class="contact-card-value">Laxmi-Rajput</span>
+              </div>
+              <i class="fa-solid fa-arrow-up-right-from-square contact-link-arrow" aria-hidden="true"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="footer-name">Vijay Laxmi Singh</span>
+        <span class="footer-subtitle">Student Developer &bull; Co-Founder at ArKTest</span>
+        <span class="footer-location">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          Uttar Pradesh, India
+        </span>
+      </div>
+
+      <div class="footer-social">
+        <a
+          href="https://github.com/Laxmi-Rajput"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer-social-link"
+          aria-label="GitHub profile"
+        >
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2026 Vijay Laxmi Singh. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
